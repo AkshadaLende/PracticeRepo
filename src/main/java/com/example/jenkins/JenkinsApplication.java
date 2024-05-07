@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.logging.Logger;
 
 @SpringBootApplication
-//@RestController
+@RestController
 public class JenkinsApplication {
-	/*static Logger logger= (Logger) LoggerFactory.getLogger(JenkinsApplication.class);
+	//static Logger logger= (Logger) LoggerFactory.getLogger(JenkinsApplication.class);
     @GetMapping("/")
 	public String home(){
 		return"Welcome ";
 	}
 
-	@PostConstruct
+	/*@PostConstruct
 			public void init(){
 logger.info("Application started.....");
 	}*/
