@@ -37,7 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>Jenkins-War</finalName>
+		<finalName>jenkins-war</finalName>
 	</build>
 
 
